@@ -5,6 +5,8 @@
   "color": "#FBF4ED",
   "icon": "rupee",
   "evaluationVersion": 2,
+  "applicationVersion": 1,
+  "isManualUpdate": false,
   "createdAt": {
     "seconds": 1648209525,
     "nanos": 376000000

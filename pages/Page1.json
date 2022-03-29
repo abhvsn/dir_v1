@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 5016,
+          "bottomRow": 5010,
           "containerStyle": "none",
           "snapRows": 125,
           "parentRowSpace": 1,
@@ -22,6 +22,7 @@
           "version": 53,
           "minHeight": 1292,
           "parentColumnSpace": 1,
+          "dynamicTriggerPathList": [],
           "dynamicBindingPathList": [],
           "leftColumn": 0,
           "children": [
@@ -289,7 +290,7 @@
               "textSize": "PARAGRAPH",
               "widgetId": "e8czac1us2",
               "isVisibleFilters": true,
-              "tableData": "{{Query1.data}}",
+              "tableData": "{{JSObject1.myFun2.data}}",
               "isVisible": true,
               "label": "Data",
               "searchKey": "",
@@ -314,11 +315,15 @@
         "layoutOnLoadActions": [
           [
             {
-              "id": "Page1_Query1",
-              "name": "Query1",
+              "id": "Page1_JSObject1.myFun2",
+              "name": "JSObject1.myFun2",
+              "collectionId": "Page1_JSObject1",
+              "clientSideExecution": true,
               "confirmBeforeExecute": false,
-              "pluginType": "DB",
-              "jsonPathKeys": [],
+              "pluginType": "JS",
+              "jsonPathKeys": [
+                "async () => {\n\t\tconst data = Query1.run();\n\t\treturn data;\n\t}"
+              ],
               "timeoutInMillisecond": 10000
             }
           ]
