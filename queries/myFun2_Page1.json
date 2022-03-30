@@ -3,7 +3,7 @@
   "pluginId": "js-plugin",
   "unpublishedAction": {
     "name": "myFun2",
-    "fullyQualifiedName": "JSObject1.myFun2",
+    "fullyQualifiedName": "getData.myFun2",
     "datasource": {
       "name": "UNUSED_DATASOURCE",
       "pluginId": "js-plugin",
@@ -14,7 +14,7 @@
       "userPermissions": []
     },
     "pageId": "Page1",
-    "collectionId": "Page1_JSObject1",
+    "collectionId": "Page1_getData",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -41,7 +41,7 @@
     "policies": [],
     "userPermissions": []
   },
-  "id": "Page1_JSObject1.myFun2",
+  "id": "Page1_getData.myFun2",
   "deleted": false,
   "gitSyncId": "623dae756c86dd5be6fdcddb_6242c18d8684ef1f231222d3"
 }

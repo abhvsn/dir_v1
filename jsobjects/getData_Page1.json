@@ -1,6 +1,6 @@
 {
   "unpublishedCollection": {
-    "name": "JSObject1",
+    "name": "getData",
     "pageId": "Page1",
     "pluginId": "js-plugin",
     "pluginType": "JS",
@@ -9,7 +9,7 @@
     "body": "export default {\n\tmyFun2: async () => {\n\t\tconst data = Query1.run();\n\t\treturn data;\n\t}\n}",
     "variables": []
   },
-  "id": "Page1_JSObject1",
+  "id": "Page1_getData",
   "deleted": false,
   "gitSyncId": "623dae756c86dd5be6fdcddb_6242c18d8684ef1f231222d7"
 }

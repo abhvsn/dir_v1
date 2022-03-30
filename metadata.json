@@ -9,13 +9,13 @@
       "unpublishedUserSetOnLoad": true,
       "publishedUserSetOnLoad": true
     },
+    "Page1_getData.myFun2": {
+      "unpublishedUserSetOnLoad": true,
+      "publishedUserSetOnLoad": true
+    },
     "Page2_InsertQuery": {
       "unpublishedUserSetOnLoad": false,
       "publishedUserSetOnLoad": false
-    },
-    "Page1_JSObject1.myFun2": {
-      "unpublishedUserSetOnLoad": true,
-      "publishedUserSetOnLoad": true
     },
     "Page1_Query1": {
       "unpublishedUserSetOnLoad": false,
